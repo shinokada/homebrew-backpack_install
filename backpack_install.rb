@@ -11,9 +11,9 @@ class BackpackInstall < Formula
   
 
   def install
-    bin.install 'backpack_install' 
-    bin.install './lib/*' 
-    bin.install './bp_files/*'
+    bin.install "backpack_install"
+    bin.install "./lib/*.*"
+    bin.install "./bp_files/*.*"
   end
 
   test do
