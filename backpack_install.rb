@@ -5,10 +5,16 @@ class BackpackInstall < Formula
   sha256 "83f2b1e193446c6da00c59bbb671d820e33af8a8c7fd89bdd6ddcf3c21d31c3b"
   license "MIT"
 
+  bottle :unneeded
+
   depends_on "composer"
   
 
   def install
-    bin.install 'backpack_install'
+    system "make", "install"
+  end
+
+  test do
+    system "false"
   end
 end
