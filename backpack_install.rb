@@ -1,8 +1,8 @@
 class BackpackInstall < Formula
   desc "Backpack Installer for macOS/Linux"
   homepage "https://github.com/shinokada/backpack_install"
-  url "https://github.com/shinokada/backpack_install/archive/refs/tags/v0.5.4.tar.gz"
-  sha256 "e4d7a5fd828d9c6c6c0e4fd1b0648c73b26c2d07d27104fb99643f1265b597ae"
+  url "https://github.com/shinokada/backpack_install/archive/refs/tags/v0.5.5.tar.gz"
+  sha256 "c3c4098f970d680b4ae905d0d3b958983b04f55a5ac8cae7ce2d858cf8863786"
   license "MIT"
 
   bottle :unneeded
