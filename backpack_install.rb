@@ -11,7 +11,7 @@ class BackpackInstall < Formula
   
 
   def install
-    system "make", "install",  "PREFIX=#{prefix}"
+    bin.install 'backpack_install' 'lib/*' 'bp_files/*'
   end
 
   test do
