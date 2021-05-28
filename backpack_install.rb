@@ -7,7 +7,6 @@ class BackpackInstall < Formula
 
   bottle :unneeded
 
-  depends_on "composer"
   depends_on "gsed"
   
 
