@@ -8,6 +8,7 @@ class BackpackInstall < Formula
   bottle :unneeded
 
   depends_on "gsed"
+  depends_on "bash"
   
 
   def install
